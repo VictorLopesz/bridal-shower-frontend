@@ -1,10 +1,11 @@
 'use client'
+import Image from 'next/image';
 import React, { useState } from 'react';
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHouse, faHeart, faGift, faLocationDot } from '@fortawesome/free-solid-svg-icons';
-
+import { faHouse, faGift, faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import logo from '../../../../public/assets/logo.png'
 
 
 const Header = () => {
@@ -17,12 +18,14 @@ const Header = () => {
 
     return (
         <>
-            <nav className="bg-[#8cacc8c6]">
+            <nav className="bg-[#efe2c1e5] shadow-md">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg-px-8">
-                    <div className="flex items-center justify-between h-16">
+                    <div className="flex items-center justify-between h-16 md:ml-32 md:mr-32">
                         <div className="flex items-center">
                             <div className="flex-shrink-0">
-                                <a href="/" className="text-white">Logo</a>
+                                <a href="/" className="text-white">
+                                    <Image src={logo} alt="logo" width={60} height={60} className="m-4" />
+                                </a>
                             </div>
                         </div>
                         <div className="hidden md:block">
@@ -31,12 +34,6 @@ const Header = () => {
                                     <FontAwesomeIcon icon={faHouse} width={15} height={15} />
                                     <span className="ml-1 font-medium">
                                         Início
-                                    </span>
-                                </a>
-                                <a href="/" className="no-underline hover:bg-[#22394a92] text-[#485766]  hover:text-[#F0F2ED] rounded-sm p-2 transition duration-300">
-                                    <FontAwesomeIcon icon={faHeart} width={15} height={15} />
-                                    <span className="ml-1 font-medium">
-                                        Sobre o casal
                                     </span>
                                 </a>
                                 <a href="/" className="no-underline hover:bg-[#22394a92] text-[#485766]  hover:text-[#F0F2ED] rounded-sm p-2 transition duration-300">
@@ -69,12 +66,6 @@ const Header = () => {
                                     <FontAwesomeIcon icon={faHouse} width={15} height={15} />
                                     <span className="ml-1 font-medium">
                                         Início
-                                    </span>
-                                </a>
-                                <a href="/" className="no-underline hover:bg-[#22394a92] block text-[#485766]  hover:text-[#F0F2ED] rounded-sm p-2 transition duration-300">
-                                    <FontAwesomeIcon icon={faHeart} width={15} height={15} />
-                                    <span className="ml-1 font-medium">
-                                        Sobre o casal
                                     </span>
                                 </a>
                                 <a href="/" className="no-underline hover:bg-[#22394a92] block text-[#485766]  hover:text-[#F0F2ED] rounded-sm p-2 transition duration-300">
