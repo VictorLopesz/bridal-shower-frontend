@@ -15,27 +15,27 @@ const Header = () => {
 
     return (
         <>
-            <nav className="bg-[#b2ba9fd7] h-20 shadow-md font-firasans">
+            <nav className="h-20">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg-px-8">
-                    <div className="flex items-center justify-evenly pt-5 h-16 md:ml-32 md:mr-32">
+                    <div className="flex items-center justify-center pt-5 h-16 md:ml-32 md:mr-32">
                         <div className="hidden md:block">
-                            <div className="ml-12 flex items-center space-x-1 font-georama font-light text-[14px]">
-                                <a href="/" className="no-underline hover:bg-[#22394a92] text-[#485766]  hover:text-[#F0F2ED] rounded-sm p-2 transition duration-300">
-                                    <FontAwesomeIcon icon={faHouse} width={15} height={15} />
-                                    <span className="ml-1 font-medium font-firasans ">
+                            <div className="ml-12 flex items-center space-x-4 font-georama font-light text-[14px]">
+                                <a href="/" className="no-underline  m-2 text-[#707F62]  rounded-sm p-2 transition duration-300">
+                                    <span className="ml-1 font-medium border-b-4 hover:border-lime-700 uppercase flex items-center justify-center text-[#546049] font-serif">
+                                    <FontAwesomeIcon icon={faHouse} width={15} height={15} className="mr-1" />
                                         Início
                                     </span>
                                 </a>
-                                <a href="/" className="no-underline hover:bg-[#22394a92] text-[#485766]  hover:text-[#F0F2ED] rounded-sm p-2 transition duration-300">
-                                    <FontAwesomeIcon icon={faGift} width={15} height={15} />
-                                    <span className="ml-1 font-medium font-firasans">
-                                        Opções de Presentes
+                                <a href="/" className="no-underline  m-2 text-[#707F62]  rounded-sm p-2 transition duration-300">
+                                    <span className="ml-1 font-medium border-b-4 hover:border-lime-700 uppercase flex items-center justify-center text-[#546049] font-serif">
+                                    <FontAwesomeIcon icon={faGift} width={15} height={15} className="mr-1" />
+                                        Presentes
                                     </span>
                                 </a>
-                                <a href="/" className="no-underline hover:bg-[#22394a92] text-[#485766] hover:text-[#F0F2ED] rounded-sm p-2 transition duration-300">
-                                    <FontAwesomeIcon icon={faLocationDot} width={15} height={15} />
-                                    <span className=" ml-1 font-medium font-firasans">
-                                        Endereço
+                                <a href="/" className="no-underline  m-2 text-[#707F62] rounded-sm p-2 transition duration-300">
+                                    <span className=" ml-1 font-medium border-b-4 hover:border-lime-700  uppercase flex items-center justify-center text-[#546049] font-serif">
+                                    <FontAwesomeIcon icon={faLocationDot} width={15} height={15} className="mr-1" />
+                                        Local & Data
                                     </span>
                                 </a>
                             </div>
