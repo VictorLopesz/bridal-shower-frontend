@@ -5,11 +5,8 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouse, faGift, faLocationDot } from '@fortawesome/free-solid-svg-icons';
-import logo from '../../../../public/assets/logo.png'
-
 
 const Header = () => {
-
     const [isClick, setIsClick] = useState(false);
 
     const toggleNavbar = () => {
@@ -18,33 +15,26 @@ const Header = () => {
 
     return (
         <>
-            <nav className="bg-[#efe2c1e5] shadow-md">
+            <nav className="bg-[#b2ba9fd7] h-20 shadow-md font-firasans">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg-px-8">
-                    <div className="flex items-center justify-between h-16 md:ml-32 md:mr-32">
-                        <div className="flex items-center">
-                            <div className="flex-shrink-0">
-                                <a href="/" className="text-white">
-                                    <Image src={logo} alt="logo" width={60} height={60} className="m-4" />
-                                </a>
-                            </div>
-                        </div>
+                    <div className="flex items-center justify-evenly pt-5 h-16 md:ml-32 md:mr-32">
                         <div className="hidden md:block">
                             <div className="ml-12 flex items-center space-x-1 font-georama font-light text-[14px]">
                                 <a href="/" className="no-underline hover:bg-[#22394a92] text-[#485766]  hover:text-[#F0F2ED] rounded-sm p-2 transition duration-300">
                                     <FontAwesomeIcon icon={faHouse} width={15} height={15} />
-                                    <span className="ml-1 font-medium">
+                                    <span className="ml-1 font-medium font-firasans ">
                                         Início
                                     </span>
                                 </a>
                                 <a href="/" className="no-underline hover:bg-[#22394a92] text-[#485766]  hover:text-[#F0F2ED] rounded-sm p-2 transition duration-300">
                                     <FontAwesomeIcon icon={faGift} width={15} height={15} />
-                                    <span className="ml-1 font-medium">
+                                    <span className="ml-1 font-medium font-firasans">
                                         Opções de Presentes
                                     </span>
                                 </a>
                                 <a href="/" className="no-underline hover:bg-[#22394a92] text-[#485766] hover:text-[#F0F2ED] rounded-sm p-2 transition duration-300">
-                                    <FontAwesomeIcon icon={faLocationDot}  width={15} height={15} />
-                                    <span className=" ml-1 font-medium">
+                                    <FontAwesomeIcon icon={faLocationDot} width={15} height={15} />
+                                    <span className=" ml-1 font-medium font-firasans">
                                         Endereço
                                     </span>
                                 </a>
@@ -61,25 +51,25 @@ const Header = () => {
                 </div>
                 {isClick && (
                     <div className="md:hidden">
-                        <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                        <a href="/" className="no-underline hover:bg-[#22394a92] block text-[#485766]  hover:text-[#F0F2ED] rounded-sm p-2 transition duration-300">
-                                    <FontAwesomeIcon icon={faHouse} width={15} height={15} />
-                                    <span className="ml-1 font-medium">
-                                        Início
-                                    </span>
-                                </a>
-                                <a href="/" className="no-underline hover:bg-[#22394a92] block text-[#485766]  hover:text-[#F0F2ED] rounded-sm p-2 transition duration-300">
-                                    <FontAwesomeIcon icon={faGift} width={15} height={15} />
-                                    <span className="ml-1 font-medium">
-                                        Opções de Presentes
-                                    </span>
-                                </a>
-                                <a href="/" className="no-underline hover:bg-[#22394a92] block text-[#485766] hover:text-[#F0F2ED] rounded-sm p-2 transition duration-300">
-                                    <FontAwesomeIcon icon={faLocationDot}  width={15} height={15} />
-                                    <span className=" ml-1 font-medium">
-                                        Endereço
-                                    </span>
-                                </a>
+                        <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-[#b2ba9fd7]">
+                            <a href="/" className="no-underline hover:bg-[#22394a92] block text-[#485766] hover:text-[#F0F2ED] rounded-sm p-2 transition duration-300">
+                                <FontAwesomeIcon icon={faHouse} width={15} height={15} />
+                                <span className="ml-1 font-medium font-firasans">
+                                    Início
+                                </span>
+                            </a>
+                            <a href="/" className="no-underline hover:bg-[#22394a92] block text-[#788a9c]  hover:text-[#F0F2ED] rounded-sm p-2 transition duration-300">
+                                <FontAwesomeIcon icon={faGift} width={15} height={15} />
+                                <span className="ml-1 font-medium font-firasans">
+                                    Opções de Presentes
+                                </span>
+                            </a>
+                            <a href="/" className="no-underline hover:bg-[#22394a92] block text-[#485766] hover:text-[#F0F2ED] rounded-sm p-2 transition duration-300">
+                                <FontAwesomeIcon icon={faLocationDot} width={15} height={15} />
+                                <span className=" ml-1 font-medium font-firasans">
+                                    Endereço
+                                </span>
+                            </a>
                         </div>
                     </div>
                 )}

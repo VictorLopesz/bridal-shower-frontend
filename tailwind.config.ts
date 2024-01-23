@@ -15,6 +15,7 @@ const config: Config = {
       },
       fontFamily: {
         'georama': ['Georama', 'sans-serif'],
+        'firasans': ['Fira Sans', 'sans-serif'],
       }
     },
   },
