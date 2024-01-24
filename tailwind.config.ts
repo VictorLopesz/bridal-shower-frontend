@@ -14,8 +14,8 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily: {
-        'georama': ['Georama', 'sans-serif'],
-        'firasans': ['Fira Sans', 'sans-serif'],
+        "Playfair": ['Playfair Display', 'serif'],
+        "Mulish": ['Mulish', 'serif'],
       }
     },
   },
