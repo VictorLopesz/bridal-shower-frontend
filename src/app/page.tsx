@@ -12,12 +12,12 @@ export default function Home() {
   return (
     <main className="bg-[url('../../public/assets/fundo.png')] bg-cover w-screen h-screen">
       <div className="grid grid-cols-1 sm:grid-cols-1 xl:grid-cols-2 lg:grid-cols-2">
-        <div className="grid grid-cols-2 md:grid-cols-2 xl:grid-cols-2">
+        <div className="grid grid-cols-1 md:grid-cols-1 xl:grid-cols-1">
           <div className="mt-12">
-            <Image src={gatos.src} alt="gatos" className="mx-auto xl:w-44 w-[150px] " />
+            <Image src={gatos.src} alt="gatos" width={150} height={150} className="mx-auto xl:w-44" />
             <span className="uppercase grid-cols-1 grid font-georama font-bold text-[#353931] font-Playfair justify-self-center text-3xl lg:text-4xl xl:text-4xl text-center mt-4">
               Chá de casa nova
-              {/* <img src={nomes.src} alt="nomes" className="mx-auto w-[200px] sm:w-[300px]" /> */}
+              <Image src={nomes.src} alt="nomes" width={200} height={200} className="mx-auto sm:w-[300px]" />
             </span>
             <div className="w-full flex items-center justify-center pl-10 pr-10 sm:pl-5 sm:pr-5 md:pl-8 md:pr-8 lg:pl-12 lg:pr-12 xl:pl-36 xl:pr-36 mt-8">
               <ul className="text-[#353931] text-justify">
@@ -31,7 +31,7 @@ export default function Home() {
               </ul>
             </div>
             <div className="justify-center flex items-center">
-              <Image src={chaveiro.src} alt="chaveiro" width={100} />
+              <Image src={chaveiro.src} alt="chaveiro" width={100} height={100} />
             </div>
           </div>
         </div>

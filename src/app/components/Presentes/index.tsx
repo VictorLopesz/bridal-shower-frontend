@@ -49,7 +49,7 @@ const PRESENTE = [
     },
 ]
 
-function Presentes() {
+const Presentes = () => {
     const [tab, setTab] = useState("Sala");
     const [isPending, startTransition] = useTransition();
 
@@ -60,8 +60,8 @@ function Presentes() {
     }
 
     return (
-        <div>
-            <div className="mt-8 flex text-sm flex-row lg:text-base justify-start">
+        <div className="sm:mt-0 xl:mt-32 lg:mt-32 flex justify-center items-center xl:-ml-40 lg:-ml-40">
+            <div className="mt-8 flex flex-row sm:text- lg:text-4xl xl:text-4xl justify-start">
                 <TabButton className="text-black font-Playfair"
                     selectTab={() => handleTabChange("Sala")}
                     active={tab === "Sala"}
