@@ -26,7 +26,7 @@ export default function Home() {
               <Fade
                 duration={2000}
               >
-                <Image src={nomes.src} alt="nomes" width={200} height={200} className="mx-auto sm:w-[300px]" />
+                {/* <Image src={nomes.src} alt="nomes" width={200} height={200} className="mx-auto sm:w-[300px]" /> */}
               </Fade>
             </span>
             <div className="w-full flex items-center justify-center pl-10 pr-10 sm:pl-5 sm:pr-5 md:pl-8 md:pr-8 lg:pl-12 lg:pr-12 xl:pl-36 xl:pr-36 mt-8">
