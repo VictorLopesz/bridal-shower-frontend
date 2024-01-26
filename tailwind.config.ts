@@ -16,6 +16,7 @@ const config: Config = {
       fontFamily: {
         "Playfair": ['Playfair Display', 'serif'],
         "Mulish": ['Mulish', 'serif'],
+        "Vibes":['Great Vibes', 'cursive'],
       }
     },
   },
