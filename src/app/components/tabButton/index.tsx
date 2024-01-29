@@ -6,7 +6,7 @@ const TabButton = ({ active, selectTab, children }: any) => {
 
     return (
         <button onClick={selectTab}>
-            <p className={`mr-5 uppercase text-[#727E65] font-Playfair transition duration-300 ease-in-out font-medium ${buttonClasses}`}>
+            <p className={`mr-2 xl:mr-8 lg:mr-8 uppercase text-[#727E65] font-Playfair transition duration-300 ease-in-out font-medium ${buttonClasses}`}>
                 {children}
             </p>
         </button>

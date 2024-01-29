@@ -2,12 +2,11 @@
 import React from "react";
 import gatos from '../../public/assets/gatos.png';
 import nomes from '../../public/assets/nomes.png';
-import chaveiro from '../../public/assets/chaveiro.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPaw } from '@fortawesome/free-solid-svg-icons';
 import Presentes from "./components/Presentes";
 import Image from "next/image";
-import { Fade } from 'react-awesome-reveal';
+
 
 export default function Home() {
   return (
@@ -17,17 +16,8 @@ export default function Home() {
           <div className="mt-12">
             <Image src={gatos.src} alt="gatos" width={150} height={150} className="mx-auto xl:w-44" />
             <span className="uppercase grid-cols-1 grid font-georama font-bold text-[#353931] font-Playfair justify-self-center text-3xl lg:text-4xl xl:text-4xl text-center mt-4">
-              <Fade
-                direction="down"
-                duration={2000}
-              >
                 Chá de casa nova
-              </Fade>
-              <Fade
-                duration={2000}
-              >
-                {/* <Image src={nomes.src} alt="nomes" width={200} height={200} className="mx-auto sm:w-[300px]" /> */}
-              </Fade>
+                <Image src={nomes.src} alt="nomes" width={200} height={200} className="mx-auto sm:w-[300px]" />
             </span>
             <div className="w-full flex items-center justify-center pl-10 pr-10 sm:pl-5 sm:pr-5 md:pl-8 md:pr-8 lg:pl-12 lg:pr-12 xl:pl-36 xl:pr-36 mt-8">
               <ul className="text-[#353931] text-justify">
