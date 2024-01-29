@@ -7,3 +7,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
+
+/* Estilo personalizado para o botão de salvar */
+.btn-salvar {
+    background-color: #727E65;
+    border-color: #727E65;
+    color: #fff;
+  }
+  
+  .btn-salvar:hover {
+    background-color: #6B7760;
+    border-color: #6B7760;
+    color: #fff;
+  }
+  
+  .btn-salvar:focus {
+    box-shadow: 0 0 0 0.2rem rgba(114, 126, 101, 0.5);
+    /* Ajuste a cor e a opacidade conforme necessário */
+  }
+  
