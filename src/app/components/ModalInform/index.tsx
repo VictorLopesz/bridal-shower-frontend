@@ -21,9 +21,9 @@ const ModalInform = () => {
 
   return (
     <>
-  <Button variant="primary" onClick={handleShow} className="bg-[#3f54b3] hover:bg-[#334b78] text-white font-bold py-1 px-2 rounded m-1">
-        <FontAwesomeIcon icon={faGift} className="text-[#fff]" />
-      </Button>
+<button onClick={handleShow} className="bg-[#917235] hover:bg-[#48391b] text-white font-bold py-1 px-2 rounded m-1">
+    <FontAwesomeIcon icon={faGift} className="text-[#fff]" />
+</button>
 
       <Modal show={show} onHide={handleClose} dialogClassName="modal-custom" centered>
         <Modal.Header closeButton>

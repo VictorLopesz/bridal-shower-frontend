@@ -29,7 +29,7 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#6c9f34] hover:bg-[#526e31] text-white font-bold py-1 px-2 rounded m-1">
+                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
                                         <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
                                     </button>
                                 </Link>
@@ -46,15 +46,12 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#6c9f34] hover:bg-[#526e31] text-white font-bold py-1 px-2 rounded m-1">
+                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
                                         <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
                                     </button>
                                 </Link>
-                                <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#3f54b3] hover:bg-[#334b78] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faGift} className="text-[#fff]" />
-                                    </button>
-                                </Link>
+                                <ModalInform />
+
                             </div>
                         </li>
                         <li className="grid grid-cols-1 text-center">
@@ -66,15 +63,12 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#6c9f34] hover:bg-[#526e31] text-white font-bold py-1 px-2 rounded m-1">
+                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
                                         <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
                                     </button>
                                 </Link>
-                                <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#3f54b3] hover:bg-[#334b78] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faGift} className="text-[#fff]" />
-                                    </button>
-                                </Link>
+                                <ModalInform />
+
                             </div>
                         </li>
                         <li className="grid grid-cols-1 text-center">
@@ -86,15 +80,12 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#6c9f34] hover:bg-[#526e31] text-white font-bold py-1 px-2 rounded m-1">
+                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
                                         <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
                                     </button>
                                 </Link>
-                                <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#3f54b3] hover:bg-[#334b78] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faGift} className="text-[#fff]" />
-                                    </button>
-                                </Link>
+                                <ModalInform />
+
                             </div>
                         </li>
                     </ul>
@@ -109,15 +100,12 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#6c9f34] hover:bg-[#526e31] text-white font-bold py-1 px-2 rounded m-1">
+                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
                                         <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
                                     </button>
                                 </Link>
-                                <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#3f54b3] hover:bg-[#334b78] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faGift} className="text-[#fff]" />
-                                    </button>
-                                </Link>
+                                <ModalInform />
+
                             </div>
                         </li>
                         <li className="grid grid-cols-1 text-center">
@@ -129,15 +117,12 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#6c9f34] hover:bg-[#526e31] text-white font-bold py-1 px-2 rounded m-1">
+                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
                                         <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
                                     </button>
                                 </Link>
-                                <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#3f54b3] hover:bg-[#334b78] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faGift} className="text-[#fff]" />
-                                    </button>
-                                </Link>
+                                <ModalInform />
+
                             </div>
                         </li>
                         <li className="grid grid-cols-1 text-center">
@@ -149,15 +134,12 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#6c9f34] hover:bg-[#526e31] text-white font-bold py-1 px-2 rounded m-1">
+                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
                                         <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
                                     </button>
                                 </Link>
-                                <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#3f54b3] hover:bg-[#334b78] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faGift} className="text-[#fff]" />
-                                    </button>
-                                </Link>
+                                <ModalInform />
+
                             </div>
                         </li>
                         <li className="grid grid-cols-1 text-center">
@@ -169,15 +151,12 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#6c9f34] hover:bg-[#526e31] text-white font-bold py-1 px-2 rounded m-1">
+                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
                                         <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
                                     </button>
                                 </Link>
-                                <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#3f54b3] hover:bg-[#334b78] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faGift} className="text-[#fff]" />
-                                    </button>
-                                </Link>
+                                <ModalInform />
+
                             </div>
                         </li>
                     </ul>
@@ -201,15 +180,12 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#6c9f34] hover:bg-[#526e31] text-white font-bold py-1 px-2 rounded m-1">
+                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
                                         <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
                                     </button>
                                 </Link>
-                                <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#3f54b3] hover:bg-[#334b78] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faGift} className="text-[#fff]" />
-                                    </button>
-                                </Link>
+                                <ModalInform />
+
                             </div>
                         </li>
 
@@ -222,15 +198,12 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#6c9f34] hover:bg-[#526e31] text-white font-bold py-1 px-2 rounded m-1">
+                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
                                         <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
                                     </button>
                                 </Link>
-                                <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#3f54b3] hover:bg-[#334b78] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faGift} className="text-[#fff]" />
-                                    </button>
-                                </Link>
+                                <ModalInform />
+
                             </div>
                         </li>
                         <li className="grid grid-cols-1 text-center">
@@ -242,15 +215,12 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#6c9f34] hover:bg-[#526e31] text-white font-bold py-1 px-2 rounded m-1">
+                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
                                         <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
                                     </button>
                                 </Link>
-                                <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#3f54b3] hover:bg-[#334b78] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faGift} className="text-[#fff]" />
-                                    </button>
-                                </Link>
+                                <ModalInform />
+
                             </div>
                         </li>
                         <li className="grid grid-cols-1 text-center">
@@ -262,15 +232,12 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#6c9f34] hover:bg-[#526e31] text-white font-bold py-1 px-2 rounded m-1">
+                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
                                         <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
                                     </button>
                                 </Link>
-                                <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#3f54b3] hover:bg-[#334b78] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faGift} className="text-[#fff]" />
-                                    </button>
-                                </Link>
+                                <ModalInform />
+
                             </div>
                         </li>
                     </ul>
@@ -285,15 +252,12 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#6c9f34] hover:bg-[#526e31] text-white font-bold py-1 px-2 rounded m-1">
+                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
                                         <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
                                     </button>
                                 </Link>
-                                <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#3f54b3] hover:bg-[#334b78] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faGift} className="text-[#fff]" />
-                                    </button>
-                                </Link>
+                                <ModalInform />
+
                             </div>
                         </li>
                         <li className="grid grid-cols-1 text-center">
@@ -305,15 +269,12 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#6c9f34] hover:bg-[#526e31] text-white font-bold py-1 px-2 rounded m-1">
+                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
                                         <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
                                     </button>
                                 </Link>
-                                <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#3f54b3] hover:bg-[#334b78] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faGift} className="text-[#fff]" />
-                                    </button>
-                                </Link>
+                                <ModalInform />
+
                             </div>
                         </li>
                         <li className="grid grid-cols-1 text-center">
@@ -325,15 +286,12 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#6c9f34] hover:bg-[#526e31] text-white font-bold py-1 px-2 rounded m-1">
+                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
                                         <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
                                     </button>
                                 </Link>
-                                <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#3f54b3] hover:bg-[#334b78] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faGift} className="text-[#fff]" />
-                                    </button>
-                                </Link>
+                                <ModalInform />
+
                             </div>
                         </li>
                         <li className="grid grid-cols-1 text-center">
@@ -345,15 +303,12 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#6c9f34] hover:bg-[#526e31] text-white font-bold py-1 px-2 rounded m-1">
+                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
                                         <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
                                     </button>
                                 </Link>
-                                <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#3f54b3] hover:bg-[#334b78] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faGift} className="text-[#fff]" />
-                                    </button>
-                                </Link>
+                                <ModalInform />
+
                             </div>
                         </li>
                     </ul>
@@ -378,15 +333,12 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#6c9f34] hover:bg-[#526e31] text-white font-bold py-1 px-2 rounded m-1">
+                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
                                         <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
                                     </button>
                                 </Link>
-                                <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#3f54b3] hover:bg-[#334b78] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faGift} className="text-[#fff]" />
-                                    </button>
-                                </Link>
+                                <ModalInform />
+
                             </div>
                         </li>
 
@@ -399,15 +351,12 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#6c9f34] hover:bg-[#526e31] text-white font-bold py-1 px-2 rounded m-1">
+                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
                                         <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
                                     </button>
                                 </Link>
-                                <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#3f54b3] hover:bg-[#334b78] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faGift} className="text-[#fff]" />
-                                    </button>
-                                </Link>
+                                <ModalInform />
+
                             </div>
                         </li>
                         <li className="grid grid-cols-1 text-center">
@@ -419,15 +368,12 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#6c9f34] hover:bg-[#526e31] text-white font-bold py-1 px-2 rounded m-1">
+                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
                                         <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
                                     </button>
                                 </Link>
-                                <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#3f54b3] hover:bg-[#334b78] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faGift} className="text-[#fff]" />
-                                    </button>
-                                </Link>
+                                <ModalInform />
+
                             </div>
                         </li>
                         <li className="grid grid-cols-1 text-center">
@@ -439,15 +385,12 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#6c9f34] hover:bg-[#526e31] text-white font-bold py-1 px-2 rounded m-1">
+                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
                                         <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
                                     </button>
                                 </Link>
-                                <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#3f54b3] hover:bg-[#334b78] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faGift} className="text-[#fff]" />
-                                    </button>
-                                </Link>
+                                <ModalInform />
+
                             </div>
                         </li>
                     </ul>
@@ -462,15 +405,12 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#6c9f34] hover:bg-[#526e31] text-white font-bold py-1 px-2 rounded m-1">
+                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
                                         <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
                                     </button>
                                 </Link>
-                                <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#3f54b3] hover:bg-[#334b78] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faGift} className="text-[#fff]" />
-                                    </button>
-                                </Link>
+                                <ModalInform />
+
                             </div>
                         </li>
                         <li className="grid grid-cols-1 text-center">
@@ -482,15 +422,12 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#6c9f34] hover:bg-[#526e31] text-white font-bold py-1 px-2 rounded m-1">
+                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
                                         <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
                                     </button>
                                 </Link>
-                                <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#3f54b3] hover:bg-[#334b78] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faGift} className="text-[#fff]" />
-                                    </button>
-                                </Link>
+                                <ModalInform />
+
                             </div>
                         </li>
                         <li className="grid grid-cols-1 text-center">
@@ -502,15 +439,12 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#6c9f34] hover:bg-[#526e31] text-white font-bold py-1 px-2 rounded m-1">
+                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
                                         <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
                                     </button>
                                 </Link>
-                                <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#3f54b3] hover:bg-[#334b78] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faGift} className="text-[#fff]" />
-                                    </button>
-                                </Link>
+                                <ModalInform />
+
                             </div>
                         </li>
                         <li className="grid grid-cols-1 text-center">
@@ -522,15 +456,12 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#6c9f34] hover:bg-[#526e31] text-white font-bold py-1 px-2 rounded m-1">
+                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
                                         <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
                                     </button>
                                 </Link>
-                                <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#3f54b3] hover:bg-[#334b78] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faGift} className="text-[#fff]" />
-                                    </button>
-                                </Link>
+                                <ModalInform />
+
                             </div>
                         </li>
                     </ul>
@@ -554,15 +485,12 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#6c9f34] hover:bg-[#526e31] text-white font-bold py-1 px-2 rounded m-1">
+                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
                                         <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
                                     </button>
                                 </Link>
-                                <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#3f54b3] hover:bg-[#334b78] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faGift} className="text-[#fff]" />
-                                    </button>
-                                </Link>
+                                <ModalInform />
+
                             </div>
                         </li>
 
@@ -575,15 +503,12 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#6c9f34] hover:bg-[#526e31] text-white font-bold py-1 px-2 rounded m-1">
+                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
                                         <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
                                     </button>
                                 </Link>
-                                <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#3f54b3] hover:bg-[#334b78] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faGift} className="text-[#fff]" />
-                                    </button>
-                                </Link>
+                                <ModalInform />
+
                             </div>
                         </li>
                         <li className="grid grid-cols-1 text-center">
@@ -595,15 +520,12 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#6c9f34] hover:bg-[#526e31] text-white font-bold py-1 px-2 rounded m-1">
+                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
                                         <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
                                     </button>
                                 </Link>
-                                <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#3f54b3] hover:bg-[#334b78] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faGift} className="text-[#fff]" />
-                                    </button>
-                                </Link>
+                                <ModalInform />
+
                             </div>
                         </li>
                         <li className="grid grid-cols-1 text-center">
@@ -615,15 +537,12 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#6c9f34] hover:bg-[#526e31] text-white font-bold py-1 px-2 rounded m-1">
+                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
                                         <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
                                     </button>
                                 </Link>
-                                <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#3f54b3] hover:bg-[#334b78] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faGift} className="text-[#fff]" />
-                                    </button>
-                                </Link>
+                                <ModalInform />
+
                             </div>
                         </li>
                     </ul>
@@ -638,15 +557,12 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#6c9f34] hover:bg-[#526e31] text-white font-bold py-1 px-2 rounded m-1">
+                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
                                         <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
                                     </button>
                                 </Link>
-                                <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#3f54b3] hover:bg-[#334b78] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faGift} className="text-[#fff]" />
-                                    </button>
-                                </Link>
+                                <ModalInform />
+
                             </div>
                         </li>
                         <li className="grid grid-cols-1 text-center">
@@ -658,15 +574,12 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#6c9f34] hover:bg-[#526e31] text-white font-bold py-1 px-2 rounded m-1">
+                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
                                         <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
                                     </button>
                                 </Link>
-                                <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#3f54b3] hover:bg-[#334b78] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faGift} className="text-[#fff]" />
-                                    </button>
-                                </Link>
+                                <ModalInform />
+
                             </div>
                         </li>
                         <li className="grid grid-cols-1 text-center">
@@ -678,15 +591,12 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#6c9f34] hover:bg-[#526e31] text-white font-bold py-1 px-2 rounded m-1">
+                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
                                         <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
                                     </button>
                                 </Link>
-                                <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#3f54b3] hover:bg-[#334b78] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faGift} className="text-[#fff]" />
-                                    </button>
-                                </Link>
+                                <ModalInform />
+
                             </div>
                         </li>
                         <li className="grid grid-cols-1 text-center">
@@ -698,15 +608,12 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#6c9f34] hover:bg-[#526e31] text-white font-bold py-1 px-2 rounded m-1">
+                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
                                         <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
                                     </button>
                                 </Link>
-                                <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#3f54b3] hover:bg-[#334b78] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faGift} className="text-[#fff]" />
-                                    </button>
-                                </Link>
+                                <ModalInform />
+
                             </div>
                         </li>
                     </ul>
