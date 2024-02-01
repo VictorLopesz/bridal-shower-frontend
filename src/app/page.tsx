@@ -10,9 +10,9 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main 
+    <main
       className="bg-cover w-full h-screen"
-      style={{ 
+      style={{
         backgroundImage: `url('/assets/fundo2.png')`,
         backgroundAttachment: 'fixed'
       }}
@@ -23,9 +23,9 @@ export default function Home() {
             <Image src={gatos.src} alt="gatos" width={150} height={150} className="mx-auto xl:w-44" />
             <span className="uppercase grid-cols-1 grid font-georama font-bold text-[#353931] font-Playfair justify-self-center text-3xl lg:text-4xl xl:text-4xl text-center mt-4">
               Chá de casa nova
-              <Image src={nomes.src} alt="nomes" width={200} height={200} className="mx-auto sm:w-[300px]" />
+              {/* <Image src={nomes.src} alt="nomes" width={200} height={200} className="mx-auto sm:w-[300px]" /> */}
             </span>
-            <br/>
+            <br />
             <div className="w-full flex items-center justify-center pl-10 pr-10 sm:pl-5 sm:pr-5 md:pl-8 md:pr-8 lg:pl-12 lg:pr-12 xl:pl-36 xl:pr-36 mt-8">
               <ul className="text-[#353931] text-justify">
                 <li className="text-sm">
@@ -41,10 +41,10 @@ export default function Home() {
         </div>
 
         <div className="bg-cover w-full h-full"
-      style={{ 
-        backgroundImage: `url('/assets/fundo2.png')`,
-        backgroundAttachment: 'fixed'
-      }}
+          style={{
+            backgroundImage: `url('/assets/fundo2.png')`,
+            backgroundAttachment: 'fixed'
+          }}
         >
           <Presentes />
         </div>

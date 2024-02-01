@@ -90,7 +90,7 @@ export const PRESENTE = [
                     </ul>
                     <br />
                     <ul className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-                    <li className="grid grid-cols-1 text-center">
+                        <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6" />
                                 <span className="font-Playfair text-[#76712d] font-semibold text-lg uppercase -mt-5">
@@ -242,7 +242,7 @@ export const PRESENTE = [
                     </ul>
                     <br />
                     <ul className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-                    <li className="grid grid-cols-1 text-center">
+                        <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6" />
                                 <span className="font-Playfair text-[#76712d] font-semibold text-lg uppercase -mt-5">
@@ -395,7 +395,7 @@ export const PRESENTE = [
                     </ul>
                     <br />
                     <ul className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-                    <li className="grid grid-cols-1 text-center">
+                        <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6" />
                                 <span className="font-Playfair text-[#76712d] font-semibold text-lg uppercase -mt-5">
@@ -547,7 +547,7 @@ export const PRESENTE = [
                     </ul>
                     <br />
                     <ul className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-                    <li className="grid grid-cols-1 text-center">
+                        <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6" />
                                 <span className="font-Playfair text-[#76712d] font-semibold text-lg uppercase -mt-5">
