@@ -7,6 +7,8 @@ import { faUser } from '@fortawesome/free-solid-svg-icons';
 import { faMobileRetro } from '@fortawesome/free-solid-svg-icons';
 import { useForm } from 'react-hook-form';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import InputMask from 'react-input-mask';
+
 
 const ModalInform = () => {
   const [show, setShow] = useState(false);
@@ -19,7 +21,7 @@ const ModalInform = () => {
     const temTelefone = !!telefone;
 
     if (!temNome || !temTelefone) {
-      return "Preencha os campos antes de tentar enviar";
+      return "Preencha todos os campos antes de tentar enviar";
     }
     return null;
   };
@@ -92,14 +94,11 @@ const ModalInform = () => {
                   <div className="absolute grid w-5 h-5 place-items-center text-blue-gray-500 top-2/4 right-3 -translate-y-2/4">
                     <FontAwesomeIcon icon={faMobileRetro} className="text-[#705318]" />
                   </div>
-                  <input
-                    type="number"
-                    id="telefone"
-                    required
-                    className="w-full h-full bg-transparent text-blue-gray-700 font-sans font-normal outline outline-0 text-sm px-3 py-2.5 rounded-[7px] border "
-                    placeholder=" "
+                  <InputMask id="phone" mask="(99) 99999-9999" placeholder="(99) 99999-9999"
+                    className="w-full h-full bg-transparent text-blue-gray-700 font-sans font-normal outline outline-0 text-sm px-3 py-2.5 rounded-[7px] border"
                     {...register('telefone')}
-                  />
+                  ></InputMask>
+
                 </div>
               </div>
             </Form.Group>
