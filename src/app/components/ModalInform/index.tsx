@@ -42,7 +42,7 @@ const ModalInform = () => {
     }
   }
 
-  const handleFocus = (campo: 'nome' | 'telefone'):void => {
+  const handleFocus = (campo: 'nome' | 'telefone') => {
     setTocado((prevState) => ({
       ...prevState,
       [campo]: true,

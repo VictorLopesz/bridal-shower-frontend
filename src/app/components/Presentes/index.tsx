@@ -4,6 +4,8 @@ import { Fade } from 'react-awesome-reveal';
 import { PRESENTE } from '../../constant/PresenteData';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import { TiHeartFullOutline } from "react-icons/ti";
+
 
 
 
@@ -37,7 +39,9 @@ const Presentes = ({ onClick }:any) => {
                             {" "}
 
                         </TabButton>
+                        <span className="text-[#909986]">
                         ·
+                        </span>
                         <TabButton className="font-Playfair"
                             selectTab={() => handleTabChange("Cozinha")}
                             active={tab === "Cozinha"}
@@ -46,7 +50,9 @@ const Presentes = ({ onClick }:any) => {
                             <span className="ml-1">Cozinha</span> <br />  {" "}
 
                         </TabButton>
+                        <span className="text-[#909986]">
                         ·
+                        </span>
                         <TabButton className="font-Playfair"
                             selectTab={() => handleTabChange("Quarto")}
                             active={tab === "Quarto"}
@@ -56,7 +62,9 @@ const Presentes = ({ onClick }:any) => {
                             <br />  {" "}
 
                         </TabButton>
+                        <span className="text-[#909986]">
                         ·
+                        </span>
                         <TabButton className="font-Playfair"
                             selectTab={() => handleTabChange("Banheiro")}
                             active={tab === "Banheiro"}
