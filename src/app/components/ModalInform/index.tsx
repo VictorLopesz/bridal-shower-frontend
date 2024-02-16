@@ -11,7 +11,7 @@ import InputMask from 'react-input-mask';
 import { IoMdAlert } from "react-icons/io";
 import Confirmacao from '../Confirmacao';
 
-const ModalInform = () => {
+const ModalInform = ({ id, ...props }: any) => {
   const [show, setShow] = useState(false);
   const [showConfirmacao, setShowConfirmacao] = useState(false);
   const [mensagemErro, setMensagemErro] = useState<string | null>(null);
@@ -29,8 +29,9 @@ const ModalInform = () => {
   };
 
   const onSubmit = (data: any) => {
-    const { nome, telefone } = data;
+    const { id, nome, telefone } = data;
     console.log(data);
+    console.log('id:', id);
     const erroValidacao = preencherInput(nome, telefone);
 
     if (erroValidacao !== null) {
@@ -41,6 +42,7 @@ const ModalInform = () => {
       reset({
         nome: '',
         telefone: '',
+        id: '',
       });
     }
   }
@@ -81,6 +83,8 @@ const ModalInform = () => {
         </Modal.Header>
         <Modal.Body>
           <Form onSubmit={handleSubmit(onSubmit)}>
+            <span className="text-sm font-semibold mb-2">Presente: {id}</span>
+            <br />
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
               <label className="uppercase font-semibold text-[10px] -mb-2">Nome e Sobrenome</label>
               <div className="w-72">

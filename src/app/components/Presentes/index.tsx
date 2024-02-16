@@ -7,7 +7,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 
 
-const Presentes = ({ onClick }: any) => {
+const Presentes = () => {
     const [tab, setTab] = useState("Sala");
     const [isPending, startTransition] = useTransition();
 
