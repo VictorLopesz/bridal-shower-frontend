@@ -9,9 +9,11 @@ import { useForm } from 'react-hook-form';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import InputMask from 'react-input-mask';
 import { IoMdAlert } from "react-icons/io";
+import Confirmacao from '../Confirmacao';
 
 const ModalInform = () => {
   const [show, setShow] = useState(false);
+  const [showConfirmacao, setShowConfirmacao] = useState(false);
   const [mensagemErro, setMensagemErro] = useState<string | null>(null);
   const [tocado, setTocado] = useState<{ nome: boolean; telefone: boolean }>({ nome: false, telefone: false });
   const { register, handleSubmit, reset } = useForm();
@@ -35,6 +37,7 @@ const ModalInform = () => {
       setMensagemErro(erroValidacao);
     } else {
       setShow(false);
+      setShowConfirmacao(true);
       reset({
         nome: '',
         telefone: '',
@@ -55,6 +58,11 @@ const ModalInform = () => {
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
+  const handleCloseConfirmationModal = () => {
+    setShowConfirmacao(false);
+    handleClose();
+  }
 
   return (
     <>
@@ -133,8 +141,9 @@ const ModalInform = () => {
             Fechar
           </button>
         </Modal.Footer>
-      </Modal >
-    </>
+      </Modal>
+
+      <Confirmacao showConfirmacao={showConfirmacao} handleCloseConfirmationModal={handleCloseConfirmationModal} />    </>
   );
 }
 

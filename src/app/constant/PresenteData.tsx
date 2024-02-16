@@ -17,12 +17,12 @@ export const PRESENTE = [
         id: "Quarto",
         content: (
             <div className="flex items-center justify-center">
-                <div className="p-7 -ml-2 md:-ml-2 xl:-ml-2">
+                <div className="p-1 -ml-2 md:-ml-2 xl:-ml-2">
                     <ul className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6" />
-                                <span className="font-Playfair text-[#76712d] font-semibold text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
@@ -39,7 +39,7 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6" />
-                                <span className="font-Playfair text-[#76712d] font-semibold text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
@@ -56,7 +56,7 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6" />
-                                <span className="font-Playfair text-[#76712d] font-semibold text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
@@ -73,7 +73,7 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6" />
-                                <span className="font-Playfair text-[#76712d] font-semibold text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
@@ -93,7 +93,7 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6" />
-                                <span className="font-Playfair text-[#76712d] font-semibold text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
@@ -110,7 +110,7 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6" />
-                                <span className="font-Playfair text-[#76712d] font-semibold text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
@@ -127,7 +127,7 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6" />
-                                <span className="font-Playfair text-[#76712d] font-semibold text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
@@ -144,7 +144,7 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6" />
-                                <span className="font-Playfair text-[#76712d] font-semibold text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
@@ -168,12 +168,12 @@ export const PRESENTE = [
         id: "Sala",
         content: (
             <div className="flex items-center justify-center">
-                <div className="p-7 -ml-2 md:-ml-2 xl:-ml-2">
+                <div className="p-1 -ml-2 md:-ml-2 xl:-ml-2">
                     <ul className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6" />
-                                <span className="font-Playfair text-[#76712d] font-semibold text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
@@ -191,7 +191,7 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6" />
-                                <span className="font-Playfair text-[#76712d] font-semibold text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
@@ -208,7 +208,7 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6" />
-                                <span className="font-Playfair text-[#76712d] font-semibold text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
@@ -225,7 +225,7 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6" />
-                                <span className="font-Playfair text-[#76712d] font-semibold text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
@@ -245,7 +245,7 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6" />
-                                <span className="font-Playfair text-[#76712d] font-semibold text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
@@ -262,7 +262,7 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6" />
-                                <span className="font-Playfair text-[#76712d] font-semibold text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
@@ -279,7 +279,7 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6" />
-                                <span className="font-Playfair text-[#76712d] font-semibold text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
@@ -296,7 +296,7 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6" />
-                                <span className="font-Playfair text-[#76712d] font-semibold text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
@@ -321,12 +321,12 @@ export const PRESENTE = [
         id: "Cozinha",
         content: (
             <div className="flex items-center justify-center">
-                <div className="p-7 -ml-2 md:-ml-2 xl:-ml-2">
+                <div className="p-1 -ml-2 md:-ml-2 xl:-ml-2">
                     <ul className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6" />
-                                <span className="font-Playfair text-[#76712d] font-semibold text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
@@ -344,7 +344,7 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6" />
-                                <span className="font-Playfair text-[#76712d] font-semibold text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
@@ -361,7 +361,7 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6" />
-                                <span className="font-Playfair text-[#76712d] font-semibold text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
@@ -378,7 +378,7 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6" />
-                                <span className="font-Playfair text-[#76712d] font-semibold text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
@@ -398,7 +398,7 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6" />
-                                <span className="font-Playfair text-[#76712d] font-semibold text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
@@ -415,7 +415,7 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6" />
-                                <span className="font-Playfair text-[#76712d] font-semibold text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
@@ -432,7 +432,7 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6" />
-                                <span className="font-Playfair text-[#76712d] font-semibold text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
@@ -449,7 +449,7 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6" />
-                                <span className="font-Playfair text-[#76712d] font-semibold text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
@@ -473,12 +473,12 @@ export const PRESENTE = [
         id: "Banheiro",
         content: (
             <div className="flex items-center justify-center">
-                <div className="p-7 -ml-2 md:-ml-2 xl:-ml-2">
+                <div className="p-1 -ml-2 md:-ml-2 xl:-ml-2">
                     <ul className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6" />
-                                <span className="font-Playfair text-[#76712d] font-semibold text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
@@ -496,7 +496,7 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6" />
-                                <span className="font-Playfair text-[#76712d] font-semibold text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
@@ -513,7 +513,7 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6" />
-                                <span className="font-Playfair text-[#76712d] font-semibold text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
@@ -530,7 +530,7 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6" />
-                                <span className="font-Playfair text-[#76712d] font-semibold text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
@@ -550,7 +550,7 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6" />
-                                <span className="font-Playfair text-[#76712d] font-semibold text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
@@ -567,7 +567,7 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6" />
-                                <span className="font-Playfair text-[#76712d] font-semibold text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
@@ -584,7 +584,7 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6" />
-                                <span className="font-Playfair text-[#76712d] font-semibold text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
@@ -601,7 +601,7 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6" />
-                                <span className="font-Playfair text-[#76712d] font-semibold text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
