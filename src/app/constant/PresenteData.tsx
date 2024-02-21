@@ -35,7 +35,7 @@ export const PRESENTE = [
                             </div>
                         </li>
 
-                        <li id="quarto2" className="grid grid-cols-1 text-center">
+                        <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6" />
                                 <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">

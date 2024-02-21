@@ -30,9 +30,9 @@ const ModalInform = ({ id, ...props }: any) => {
 
   const onSubmit = (data: any) => {
     const { id, nome, telefone } = data;
-    console.log("ID do presente:", id);
-    console.log(data);
+    const dados = { id, nome, telefone };
     const erroValidacao = preencherInput(nome, telefone);
+    console.log(dados);
 
     if (erroValidacao !== null) {
       setMensagemErro(erroValidacao);
@@ -86,6 +86,11 @@ const ModalInform = ({ id, ...props }: any) => {
             <span className="font-semibold uppercase text-[13px] text-[#2d6133] flex items-center justify-center">
               {id}
             </span>
+            <input type="text"
+              disabled
+              {...register('id')}
+              placeholder={id}
+            />
             <br />
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
               <label className="uppercase font-semibold text-[10px] -mb-2">Nome e Sobrenome</label>
