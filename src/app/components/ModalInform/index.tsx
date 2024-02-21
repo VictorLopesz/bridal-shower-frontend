@@ -30,8 +30,8 @@ const ModalInform = ({ id, ...props }: any) => {
 
   const onSubmit = (data: any) => {
     const { id, nome, telefone } = data;
+    console.log("ID do presente:", id);
     console.log(data);
-    console.log('id:', id);
     const erroValidacao = preencherInput(nome, telefone);
 
     if (erroValidacao !== null) {
@@ -83,7 +83,9 @@ const ModalInform = ({ id, ...props }: any) => {
         </Modal.Header>
         <Modal.Body>
           <Form onSubmit={handleSubmit(onSubmit)}>
-            <span className="text-sm font-semibold mb-2">Presente: {id}</span>
+            <span className="font-semibold uppercase text-[13px] text-[#2d6133] flex items-center justify-center">
+              {id}
+            </span>
             <br />
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
               <label className="uppercase font-semibold text-[10px] -mb-2">Nome e Sobrenome</label>
