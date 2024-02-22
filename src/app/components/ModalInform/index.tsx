@@ -47,7 +47,7 @@ const ModalInform = ({ id, ...props }: any) => {
     }
   }
 
-  const handleFocus = (campo: 'nome' | 'telefone') => {
+  const handleFocus = (campo: 'id' | 'nome' | 'telefone') => {
     setTocado((prevState) => ({
       ...prevState,
       [campo]: true,
@@ -82,15 +82,12 @@ const ModalInform = ({ id, ...props }: any) => {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <Form onSubmit={handleSubmit(onSubmit)}>
-            <span className="font-semibold uppercase text-[13px] text-[#2d6133] flex items-center justify-center">
+          <Form onSubmit={handleSubmit((data) => onSubmit({ ...id, data }))}>
+            <span
+              className="font-semibold uppercase text-[13px] text-[#2d6133] flex items-center justify-center">
               {id}
             </span>
-            <input type="text"
-              disabled
-              {...register('id')}
-              placeholder={id}
-            />
+            <input type="hidden" value={id} {...register('id')} />
             <br />
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
               <label className="uppercase font-semibold text-[10px] -mb-2">Nome e Sobrenome</label>
