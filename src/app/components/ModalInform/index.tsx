@@ -31,19 +31,14 @@ const ModalInform = ({ id, ...props }: any) => {
   const onSubmit = (data: any) => {
     const { id, nome, telefone } = data;
     const dados = { id, nome, telefone };
-    const erroValidacao = preencherInput(nome, telefone);
+    const validacao = preencherInput(nome, telefone);
     console.log(dados);
 
-    if (erroValidacao !== null) {
-      setMensagemErro(erroValidacao);
+    if (validacao !== null) {
+      setMensagemErro(validacao);
     } else {
       setShow(false);
       setShowConfirmacao(true);
-      reset({
-        nome: '',
-        telefone: '',
-        id: '',
-      });
     }
   }
 
@@ -64,6 +59,11 @@ const ModalInform = ({ id, ...props }: any) => {
   const handleCloseConfirmationModal = () => {
     setShowConfirmacao(false);
     handleClose();
+    reset({
+      nome: '',
+      telefone: '',
+      id: '',
+    });
   }
 
   return (
@@ -82,7 +82,7 @@ const ModalInform = ({ id, ...props }: any) => {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <Form onSubmit={handleSubmit((data) => onSubmit({ ...id, data }))}>
+          <Form>
             <span
               className="font-semibold uppercase text-[13px] text-[#2d6133] flex items-center justify-center">
               {id}
@@ -138,8 +138,8 @@ const ModalInform = ({ id, ...props }: any) => {
           <button
             className={`bg-[#917235] hover:bg-[#695327] p-2 rounded-md text-white`}
             type="submit"
-            onClick={handleSubmit(onSubmit)}
-          >
+            onClick={handleSubmit((data) => onSubmit({ ...data, id }))}
+            >
             Salvar
           </button>
           <button className="bg-[#727E65] hover:bg-[#34392d] p-2 rounded-md text-white"
@@ -151,7 +151,8 @@ const ModalInform = ({ id, ...props }: any) => {
         </Modal.Footer>
       </Modal>
 
-      <Confirmacao showConfirmacao={showConfirmacao} handleCloseConfirmationModal={handleCloseConfirmationModal} />    </>
+      <Confirmacao showConfirmacao={showConfirmacao} handleCloseConfirmationModal={handleCloseConfirmationModal} />
+    </>
   );
 }
 
