@@ -35,7 +35,7 @@ const Confirmacao: React.FC<ConfirmacaoProps> = ({ showConfirmacao, handleCloseC
                     </span>
                 </Modal.Body>
                 <Modal.Footer>
-                    <button className="bg-[#CDB371] hover:bg-[#857449] p-2 rounded-md text-[#d3d2d2]" onClick={handleCloseConfirmationModal}>
+                    <button className="bg-[#ad9762] hover:bg-[#857449] p-2 rounded-md text-[#ffffff]" onClick={handleCloseConfirmationModal}>
                         Fechar
                     </button>
                 </Modal.Footer>

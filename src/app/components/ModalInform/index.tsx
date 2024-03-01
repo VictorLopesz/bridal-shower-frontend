@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Form from 'react-bootstrap/Form';
 import Modal from 'react-bootstrap/Modal';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -13,10 +13,22 @@ import Confirmacao from '../Confirmacao';
 
 const ModalInform = ({ id, ...props }: any) => {
   const [show, setShow] = useState(false);
+  const [preenchido, setPreenchido] = useState(false);
   const [showConfirmacao, setShowConfirmacao] = useState(false);
   const [mensagemErro, setMensagemErro] = useState<string | null>(null);
   const [tocado, setTocado] = useState<{ nome: boolean; telefone: boolean }>({ nome: false, telefone: false });
-  const { register, handleSubmit, reset } = useForm();
+  const { register, handleSubmit, reset, watch } = useForm();
+
+  const nome = watch('nome');
+  const telefone = watch('telefone');
+
+  useEffect(() => {
+    if (nome && telefone) {
+      setPreenchido(true);
+    } else {
+      setPreenchido(false);
+    }
+  }, [nome, telefone])
 
   const preencherInput = (nome: any, telefone: any) => {
     const temNome = !!nome;
@@ -108,7 +120,7 @@ const ModalInform = ({ id, ...props }: any) => {
               </div>
             </Form.Group>
             <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-              <label className="uppercase font-semibold text-[10px] -mb-2">Telefone</label>
+              <label className="uppercase font-semibold text-[10px] -mb-2">WhatsApp</label>
               <div className="w-72">
                 <div className="relative w-full min-w-[200px] h-10">
                   <div className="absolute grid w-5 h-5 place-items-center text-blue-gray-500 top-2/4 right-3 -translate-y-2/4">
@@ -136,10 +148,11 @@ const ModalInform = ({ id, ...props }: any) => {
         </Modal.Body>
         <Modal.Footer>
           <button
-            className={`bg-[#917235] hover:bg-[#695327] p-2 rounded-md text-white`}
+            className={`${!preenchido ? 'pointer-events-none bg-gray-300 text-gray-600' : ''}
+            bg-[#917235] hover:bg-[#695327] p-2 rounded-md text-white`}
             type="submit"
             onClick={handleSubmit((data) => onSubmit({ ...data, id }))}
-            >
+          >
             Salvar
           </button>
           <button className="bg-[#727E65] hover:bg-[#34392d] p-2 rounded-md text-white"
