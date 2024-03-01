@@ -65,7 +65,10 @@ const ModalInform = ({ id, ...props }: any) => {
     }
   }
 
-  const handleClose = () => setShow(false);
+  const handleClose = () => {
+    reset({ nome: '', telefone: '' });
+    setShow(false);
+  }
   const handleShow = () => setShow(true);
 
   const handleCloseConfirmationModal = () => {
