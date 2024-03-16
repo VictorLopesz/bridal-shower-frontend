@@ -17,7 +17,7 @@ export const PRESENTE = [
         content: (
             <div className="flex items-center justify-center">
                 <div className="p-1 -ml-2 md:-ml-2 xl:-ml-2">
-                    <ul className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                    <ul className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-2 xl:grid-cols-4">
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6" />
@@ -88,7 +88,7 @@ export const PRESENTE = [
                         </li>
                     </ul>
                     <br />
-                    <ul className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                    <ul className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-2 xl:grid-cols-4">
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6" />
@@ -167,7 +167,7 @@ export const PRESENTE = [
         content: (
             <div className="flex items-center justify-center">
                 <div className="p-1 -ml-2 md:-ml-2 xl:-ml-2">
-                    <ul className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                    <ul className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-2 xl:grid-cols-4">
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6" />
@@ -239,7 +239,7 @@ export const PRESENTE = [
                         </li>
                     </ul>
                     <br />
-                    <ul className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                    <ul className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-2 xl:grid-cols-4">
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6" />
@@ -320,7 +320,7 @@ export const PRESENTE = [
         content: (
             <div className="flex items-center justify-center">
                 <div className="p-1 -ml-2 md:-ml-2 xl:-ml-2">
-                    <ul className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                    <ul className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-2 xl:grid-cols-4">
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6" />
@@ -392,7 +392,7 @@ export const PRESENTE = [
                         </li>
                     </ul>
                     <br />
-                    <ul className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                    <ul className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-2 xl:grid-cols-4">
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6" />
@@ -472,7 +472,7 @@ export const PRESENTE = [
         content: (
             <div className="flex items-center justify-center">
                 <div className="p-1 -ml-2 md:-ml-2 xl:-ml-2">
-                    <ul className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                    <ul className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-2 xl:grid-cols-4">
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6" />
@@ -544,7 +544,7 @@ export const PRESENTE = [
                         </li>
                     </ul>
                     <br />
-                    <ul className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                    <ul className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-2 xl:grid-cols-4">
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6" />
