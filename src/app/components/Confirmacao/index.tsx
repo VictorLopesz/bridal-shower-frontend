@@ -3,7 +3,7 @@ import React from 'react'
 import Modal from 'react-bootstrap/Modal';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleCheck } from '@fortawesome/free-solid-svg-icons';
-import { faLaughBeam } from '@fortawesome/free-regular-svg-icons';
+import { FaRegGrinHearts } from "react-icons/fa";
 import GatoAgradecendo from '../../../../public/assets/gato-agradecendo.gif'
 
 interface ConfirmacaoProps {
@@ -15,23 +15,28 @@ const Confirmacao: React.FC<ConfirmacaoProps> = ({ showConfirmacao, handleCloseC
     return (
         <div>
             <Modal show={showConfirmacao} onHide={handleCloseConfirmationModal} dialogClassName="modal-custom" centered>
-                <Modal.Header>
-                    <span className="flex items-center justify-self-center font-semibold text-[#727E65] uppercase">
+                <Modal.Header className="flex items-center justify-center w-full">
+                    <span className="flex items-center justify-center font-semibold text-[#727E65] uppercase">
                         Informações salvas! <FontAwesomeIcon icon={faCircleCheck} className="ml-1 w-7 h-7" />
                     </span>
                 </Modal.Header>
                 <Modal.Body>
                     <span className="grid grid-cols-1 justify-self-center text-sm">
-                        <p>
-                            Você receberá um SMS de confirmação no número cadastrado.
-                            Nesse SMS irá constar seu nome cadastrado, o presente escolhido, data e hora do evento.                            <br />
-                            <br />
-                            Próximo à data, lembraremos você novamente.
-                        </p>
+                        <div className="text-sm flex items-center justify-center w-full">
+                            <p>
+                                <p className="font-semibold">
+                                    Obigado pela sua escolha!
+                                </p>
+                                <p className="text-sm">
+                                    Você receberá uma mensagem de confirmação no whatsapp cadastrado.
+                                    Nesta mensagem terá o presente escolhido, e a data da confraternização.
+                                </p>
+                            </p>
+                        </div>
                         <br />
-                        <p className="flex items-center justify-center">
-                            Obrigado <img src={GatoAgradecendo.src} alt='gatoagradecendo' className="ml-1 w-12 h-12" />
-                        </p>
+                        <div className="flex items-center justify-center w-full">
+                            <img src={GatoAgradecendo.src} alt='gatoagradecendo' className="ml-1 w-12 h-12" />
+                        </div>
                     </span>
                 </Modal.Body>
                 <Modal.Footer>

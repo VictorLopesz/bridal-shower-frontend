@@ -89,9 +89,10 @@ const ModalInform = ({ id, ...props }: any) => {
 
       <Modal show={show} onHide={handleClose} dialogClassName="modal-custom" centered>
         <Modal.Header closeButton>
-          <Modal.Title>
-            <div className="d-flex justify-content-center align-items-center text-[#727E65] uppercase text-lg font-semibold">
-              <span>Registro de Presente <FontAwesomeIcon icon={faGift} className="ml-1" />
+          <Modal.Title className="flex items-center justify-center w-full">
+            <div className=" text-[#917235] uppercase text-lg font-semibold">
+              <span>
+                Registro de Presente <FontAwesomeIcon icon={faGift} className="ml-1" />
               </span>
             </div>
           </Modal.Title>
@@ -105,11 +106,11 @@ const ModalInform = ({ id, ...props }: any) => {
             <input type="hidden" value={id} {...register('id')} />
             <br />
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-              <label className="uppercase font-semibold text-[10px] -mb-2">Nome e Sobrenome</label>
+              <label className="uppercase font-semibold text-[10px] -mb-2 ml-2 text-[#2d3a1f]">Nome e Sobrenome</label>
               <div className="w-72">
                 <div className="relative w-full min-w-[200px] h-10">
                   <div className="absolute grid w-5 h-5 place-items-center text-blue-gray-500 top-2/4 right-3 -translate-y-2/4">
-                    <FontAwesomeIcon icon={faUser} className="text-[#705318]" />
+                    <FontAwesomeIcon icon={faUser} className="text-[#727E65]" />
                   </div>
                   <input
                     type='text'
@@ -123,11 +124,11 @@ const ModalInform = ({ id, ...props }: any) => {
               </div>
             </Form.Group>
             <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-              <label className="uppercase font-semibold text-[10px] -mb-2">WhatsApp</label>
+              <label className="uppercase font-semibold text-[10px] -mb-2 ml-2 text-[#2d3a1f]">WhatsApp</label>
               <div className="w-72">
                 <div className="relative w-full min-w-[200px] h-10">
                   <div className="absolute grid w-5 h-5 place-items-center text-blue-gray-500 top-2/4 right-3 -translate-y-2/4">
-                    <FontAwesomeIcon icon={faMobileRetro} className="text-[#705318]" />
+                    <FontAwesomeIcon icon={faMobileRetro} className="text-[#727E65]" />
                   </div>
                   <InputMask
                     mask="(99) 99999-9999" maskChar={null}

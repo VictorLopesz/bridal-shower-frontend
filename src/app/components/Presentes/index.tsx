@@ -19,7 +19,7 @@ const Presentes = () => {
 
     return (
         <div className="sm:mt-0 xl:mt-14 lg:mt-14 xl:-ml-40 lg:-ml-40">
-            <div className="mt-5 flex justify-center sm:ml-2 items-center sm:text-sm lg:text-3xl xl:text-3xl ">
+            <div className="mt-5 flex justify-center sm:ml-2 items-center sm:text-lg md:text-[30px] lg:text-3xl xl:text-3xl ">
 
                 <div className="mt-8 flex -m-6">
                     <TabButton className="font-Playfair "

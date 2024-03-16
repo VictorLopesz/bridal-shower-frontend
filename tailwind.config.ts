@@ -17,6 +17,7 @@ const config: Config = {
         "Playfair": ['Playfair Display', 'serif'],
         "Mulish": ['Mulish', 'serif'],
         "Vibes": ['Great Vibes', 'cursive'],
+        'Roboto': ['Roboto Condensed', 'sans-serif'],
       }
     },
   },
