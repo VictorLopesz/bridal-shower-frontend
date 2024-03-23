@@ -27,9 +27,7 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
-                                    </button>
+                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
                                 </Link>
                                 <ModalInform  id="quarto1" />
                             </div>
@@ -44,9 +42,7 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
-                                    </button>
+                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
                                 </Link>
                                 <ModalInform id="quarto2" />
 
@@ -61,9 +57,7 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
-                                    </button>
+                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
                                 </Link>
                                 <ModalInform id="quarto3" />
 
@@ -78,9 +72,7 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
-                                    </button>
+                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
                                 </Link>
                                 <ModalInform id="quarto4" />
 
@@ -98,9 +90,7 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
-                                    </button>
+                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
                                 </Link>
                                 <ModalInform id="quarto5" />
 
@@ -115,9 +105,7 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
-                                    </button>
+                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
                                 </Link>
                                 <ModalInform id="quarto6" />
 
@@ -132,9 +120,7 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
-                                    </button>
+                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
                                 </Link>
                                 <ModalInform id="quarto7" />
 
@@ -149,9 +135,7 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
-                                    </button>
+                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
                                 </Link>
                                 <ModalInform id="quarto8" />
                             </div>
@@ -177,9 +161,7 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
-                                    </button>
+                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
                                 </Link>
                                 <ModalInform id="sala1" />
 
@@ -195,9 +177,7 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
-                                    </button>
+                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
                                 </Link>
                                 <ModalInform id="sala2" />
 
@@ -212,9 +192,7 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
-                                    </button>
+                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
                                 </Link>
                                 <ModalInform id="sala3" />
 
@@ -229,9 +207,7 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
-                                    </button>
+                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
                                 </Link>
                                 <ModalInform id="sala4" />
 
@@ -249,9 +225,7 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
-                                    </button>
+                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
                                 </Link>
                                 <ModalInform id="sala5" />
 
@@ -266,9 +240,7 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
-                                    </button>
+                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
                                 </Link>
                                 <ModalInform id="sala6" />
 
@@ -283,9 +255,7 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
-                                    </button>
+                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
                                 </Link>
                                 <ModalInform id="sala7" />
 
@@ -300,9 +270,7 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
-                                    </button>
+                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
                                 </Link>
                                 <ModalInform id="sala8" />
 
@@ -330,9 +298,7 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
-                                    </button>
+                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
                                 </Link>
                                 <ModalInform  id="cozinha1"/>
 
@@ -348,9 +314,7 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
-                                    </button>
+                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
                                 </Link>
                                 <ModalInform  id="cozinha2"/>
 
@@ -365,9 +329,7 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
-                                    </button>
+                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
                                 </Link>
                                 <ModalInform  id="cozinha3"/>
 
@@ -382,9 +344,7 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
-                                    </button>
+                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
                                 </Link>
                                 <ModalInform  id="cozinha4"/>
 
@@ -402,9 +362,7 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
-                                    </button>
+                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
                                 </Link>
                                 <ModalInform  id="cozinha5"/>
 
@@ -419,9 +377,7 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
-                                    </button>
+                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
                                 </Link>
                                 <ModalInform  id="cozinha6"/>
 
@@ -436,9 +392,7 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
-                                    </button>
+                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
                                 </Link>
                                 <ModalInform  id="cozinha7"/>
 
@@ -453,9 +407,7 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
-                                    </button>
+                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
                                 </Link>
                                 <ModalInform  id="cozinha8"/>
 
@@ -482,9 +434,7 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
-                                    </button>
+                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
                                 </Link>
                                 <ModalInform id="banheiro1"/>
 
@@ -500,9 +450,7 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
-                                    </button>
+                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
                                 </Link>
                                 <ModalInform id="banheiro2"/>
 
@@ -517,9 +465,7 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
-                                    </button>
+                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
                                 </Link>
                                 <ModalInform id="banheiro3"/>
 
@@ -534,9 +480,7 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
-                                    </button>
+                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
                                 </Link>
                                 <ModalInform id="banheiro4"/>
 
@@ -554,9 +498,7 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
-                                    </button>
+                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
                                 </Link>
                                 <ModalInform id="banheiro5"/>
 
@@ -571,9 +513,7 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
-                                    </button>
+                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
                                 </Link>
                                 <ModalInform id="banheiro6"/>
 
@@ -588,9 +528,7 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
-                                    </button>
+                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
                                 </Link>
                                 <ModalInform id="banheiro7"/>
 
@@ -605,9 +543,7 @@ export const PRESENTE = [
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                    <button type="button" className="bg-[#559b49] hover:bg-[#2d6133] text-white font-bold py-1 px-2 rounded m-1">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#fff]" />
-                                    </button>
+                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
                                 </Link>
                                 <ModalInform id="banheiro8"/>
 
