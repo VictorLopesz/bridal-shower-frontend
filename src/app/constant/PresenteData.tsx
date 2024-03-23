@@ -21,28 +21,38 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6 rounded" />
-                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#1c4a55] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
+                                    <FontAwesomeIcon icon={faEye}
+                                        className="
+                                        text-[#1c4a55] hover:text-[#85e3fa] bg-[#dbdddb]
+                                        hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded m-1
+                                        transition ease-in-out delay-150
+                                        active:scale-50 duration-150" />
                                 </Link>
-                                <ModalInform  id="quarto1" />
+                                <ModalInform id="quarto1" />
                             </div>
                         </li>
 
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6 rounded" />
-                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#1c4a55] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
+                                    <FontAwesomeIcon icon={faEye}
+                                        className="
+                                        text-[#1c4a55] hover:text-[#85e3fa] bg-[#dbdddb]
+                                         hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded m-1
+                                         transition ease-in-out delay-150
+                                         active:scale-50 duration-150" />
                                 </Link>
                                 <ModalInform id="quarto2" />
 
@@ -51,13 +61,18 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6 rounded" />
-                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#1c4a55] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
+                                    <FontAwesomeIcon icon={faEye}
+                                        className="
+                                        text-[#1c4a55] hover:text-[#85e3fa] bg-[#dbdddb]
+                                         hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded m-1
+                                         transition ease-in-out delay-150
+                                         active:scale-50 duration-150" />
                                 </Link>
                                 <ModalInform id="quarto3" />
 
@@ -66,13 +81,18 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6 rounded" />
-                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#1c4a55] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
+                                    <FontAwesomeIcon icon={faEye}
+                                        className="
+                                        text-[#1c4a55] hover:text-[#85e3fa] bg-[#dbdddb]
+                                         hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded m-1
+                                         transition ease-in-out delay-150
+                                         active:scale-50 duration-150" />
                                 </Link>
                                 <ModalInform id="quarto4" />
 
@@ -84,13 +104,18 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6 rounded" />
-                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#1c4a55] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
+                                    <FontAwesomeIcon icon={faEye}
+                                        className="
+                                        text-[#1c4a55] hover:text-[#85e3fa] bg-[#dbdddb]
+                                         hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded m-1
+                                         transition ease-in-out delay-150
+                                         active:scale-50 duration-150" />
                                 </Link>
                                 <ModalInform id="quarto5" />
 
@@ -99,13 +124,18 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6 rounded" />
-                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#1c4a55] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
+                                    <FontAwesomeIcon icon={faEye}
+                                        className="
+                                        text-[#1c4a55] hover:text-[#85e3fa] bg-[#dbdddb]
+                                         hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded m-1
+                                         transition ease-in-out delay-150
+                                         active:scale-50 duration-150" />
                                 </Link>
                                 <ModalInform id="quarto6" />
 
@@ -114,13 +144,18 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6 rounded" />
-                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#1c4a55] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
+                                    <FontAwesomeIcon icon={faEye}
+                                        className="
+                                        text-[#1c4a55] hover:text-[#85e3fa] bg-[#dbdddb]
+                                         hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded m-1
+                                         transition ease-in-out delay-150
+                                         active:scale-50 duration-150" />
                                 </Link>
                                 <ModalInform id="quarto7" />
 
@@ -129,13 +164,18 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6 rounded" />
-                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#1c4a55] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
+                                    <FontAwesomeIcon icon={faEye}
+                                        className="
+                                        text-[#1c4a55] hover:text-[#85e3fa] bg-[#dbdddb]
+                                         hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded m-1
+                                         transition ease-in-out delay-150
+                                         active:scale-50 duration-150" />
                                 </Link>
                                 <ModalInform id="quarto8" />
                             </div>
@@ -155,13 +195,18 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6 rounded" />
-                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#1c4a55] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
+                                    <FontAwesomeIcon icon={faEye}
+                                        className="
+                                        text-[#1c4a55] hover:text-[#85e3fa] bg-[#dbdddb]
+                                         hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded m-1
+                                         transition ease-in-out delay-150
+                                         active:scale-50 duration-150" />
                                 </Link>
                                 <ModalInform id="sala1" />
 
@@ -171,13 +216,18 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6 rounded" />
-                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#1c4a55] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
+                                    <FontAwesomeIcon icon={faEye}
+                                        className="
+                                        text-[#1c4a55] hover:text-[#85e3fa] bg-[#dbdddb]
+                                         hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded m-1
+                                         transition ease-in-out delay-150
+                                         active:scale-50 duration-150" />
                                 </Link>
                                 <ModalInform id="sala2" />
 
@@ -186,13 +236,18 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6 rounded" />
-                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#1c4a55] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
+                                    <FontAwesomeIcon icon={faEye}
+                                        className="
+                                        text-[#1c4a55] hover:text-[#85e3fa] bg-[#dbdddb]
+                                         hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded m-1
+                                         transition ease-in-out delay-150
+                                         active:scale-50 duration-150" />
                                 </Link>
                                 <ModalInform id="sala3" />
 
@@ -201,13 +256,18 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6 rounded" />
-                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#1c4a55] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
+                                    <FontAwesomeIcon icon={faEye}
+                                        className="
+                                        text-[#1c4a55] hover:text-[#85e3fa] bg-[#dbdddb]
+                                         hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded m-1
+                                         transition ease-in-out delay-150
+                                         active:scale-50 duration-150" />
                                 </Link>
                                 <ModalInform id="sala4" />
 
@@ -219,13 +279,18 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6 rounded" />
-                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#1c4a55] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
+                                    <FontAwesomeIcon icon={faEye}
+                                        className="
+                                        text-[#1c4a55] hover:text-[#85e3fa] bg-[#dbdddb]
+                                         hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded m-1
+                                         transition ease-in-out delay-150
+                                         active:scale-50 duration-150" />
                                 </Link>
                                 <ModalInform id="sala5" />
 
@@ -234,13 +299,18 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6 rounded" />
-                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#1c4a55] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
+                                    <FontAwesomeIcon icon={faEye}
+                                        className="
+                                        text-[#1c4a55] hover:text-[#85e3fa] bg-[#dbdddb]
+                                         hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded m-1
+                                         transition ease-in-out delay-150
+                                         active:scale-50 duration-150" />
                                 </Link>
                                 <ModalInform id="sala6" />
 
@@ -249,13 +319,18 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6 rounded" />
-                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#1c4a55] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
+                                    <FontAwesomeIcon icon={faEye}
+                                        className="
+                                        text-[#1c4a55] hover:text-[#85e3fa] bg-[#dbdddb]
+                                         hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded m-1
+                                         transition ease-in-out delay-150
+                                         active:scale-50 duration-150" />
                                 </Link>
                                 <ModalInform id="sala7" />
 
@@ -264,13 +339,18 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6 rounded" />
-                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#1c4a55] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
+                                    <FontAwesomeIcon icon={faEye}
+                                        className="
+                                        text-[#1c4a55] hover:text-[#85e3fa] bg-[#dbdddb]
+                                         hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded m-1
+                                         transition ease-in-out delay-150
+                                         active:scale-50 duration-150" />
                                 </Link>
                                 <ModalInform id="sala8" />
 
@@ -292,15 +372,20 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6 rounded" />
-                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#1c4a55] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
+                                    <FontAwesomeIcon icon={faEye}
+                                        className="
+                                        text-[#1c4a55] hover:text-[#85e3fa] bg-[#dbdddb]
+                                         hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded m-1
+                                         transition ease-in-out delay-150
+                                         active:scale-50 duration-150" />
                                 </Link>
-                                <ModalInform  id="cozinha1"/>
+                                <ModalInform id="cozinha1" />
 
                             </div>
                         </li>
@@ -308,45 +393,60 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6 rounded" />
-                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#1c4a55] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
+                                    <FontAwesomeIcon icon={faEye}
+                                        className="
+                                        text-[#1c4a55] hover:text-[#85e3fa] bg-[#dbdddb]
+                                         hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded m-1
+                                         transition ease-in-out delay-150
+                                         active:scale-50 duration-150" />
                                 </Link>
-                                <ModalInform  id="cozinha2"/>
+                                <ModalInform id="cozinha2" />
 
                             </div>
                         </li>
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6 rounded" />
-                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#1c4a55] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
+                                    <FontAwesomeIcon icon={faEye}
+                                        className="
+                                        text-[#1c4a55] hover:text-[#85e3fa] bg-[#dbdddb]
+                                         hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded m-1
+                                         transition ease-in-out delay-150
+                                         active:scale-50 duration-150" />
                                 </Link>
-                                <ModalInform  id="cozinha3"/>
+                                <ModalInform id="cozinha3" />
 
                             </div>
                         </li>
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6 rounded" />
-                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#1c4a55] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
+                                    <FontAwesomeIcon icon={faEye}
+                                        className="
+                                        text-[#1c4a55] hover:text-[#85e3fa] bg-[#dbdddb]
+                                         hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded m-1
+                                         transition ease-in-out delay-150
+                                         active:scale-50 duration-150" />
                                 </Link>
-                                <ModalInform  id="cozinha4"/>
+                                <ModalInform id="cozinha4" />
 
                             </div>
                         </li>
@@ -356,60 +456,80 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6 rounded" />
-                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#1c4a55] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
+                                    <FontAwesomeIcon icon={faEye}
+                                        className="
+                                        text-[#1c4a55] hover:text-[#85e3fa] bg-[#dbdddb]
+                                         hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded m-1
+                                         transition ease-in-out delay-150
+                                         active:scale-50 duration-150" />
                                 </Link>
-                                <ModalInform  id="cozinha5"/>
+                                <ModalInform id="cozinha5" />
 
                             </div>
                         </li>
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6 rounded" />
-                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#1c4a55] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
+                                    <FontAwesomeIcon icon={faEye}
+                                        className="
+                                        text-[#1c4a55] hover:text-[#85e3fa] bg-[#dbdddb]
+                                         hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded m-1
+                                         transition ease-in-out delay-150
+                                         active:scale-50 duration-150" />
                                 </Link>
-                                <ModalInform  id="cozinha6"/>
+                                <ModalInform id="cozinha6" />
 
                             </div>
                         </li>
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6 rounded" />
-                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#1c4a55] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
+                                    <FontAwesomeIcon icon={faEye}
+                                        className="
+                                        text-[#1c4a55] hover:text-[#85e3fa] bg-[#dbdddb]
+                                         hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded m-1
+                                         transition ease-in-out delay-150
+                                         active:scale-50 duration-150" />
                                 </Link>
-                                <ModalInform  id="cozinha7"/>
+                                <ModalInform id="cozinha7" />
 
                             </div>
                         </li>
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6 rounded" />
-                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#1c4a55] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
+                                    <FontAwesomeIcon icon={faEye}
+                                        className="
+                                        text-[#1c4a55] hover:text-[#85e3fa] bg-[#dbdddb]
+                                         hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded m-1
+                                         transition ease-in-out delay-150
+                                         active:scale-50 duration-150" />
                                 </Link>
-                                <ModalInform  id="cozinha8"/>
+                                <ModalInform id="cozinha8" />
 
                             </div>
                         </li>
@@ -428,15 +548,20 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6 rounded" />
-                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#1c4a55] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
+                                    <FontAwesomeIcon icon={faEye}
+                                        className="
+                                        text-[#1c4a55] hover:text-[#85e3fa] bg-[#dbdddb]
+                                         hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded m-1
+                                         transition ease-in-out delay-150
+                                         active:scale-50 duration-150" />
                                 </Link>
-                                <ModalInform id="banheiro1"/>
+                                <ModalInform id="banheiro1" />
 
                             </div>
                         </li>
@@ -444,45 +569,60 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6 rounded" />
-                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#1c4a55] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
+                                    <FontAwesomeIcon icon={faEye}
+                                        className="
+                                        text-[#1c4a55] hover:text-[#85e3fa] bg-[#dbdddb]
+                                         hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded m-1
+                                         transition ease-in-out delay-150
+                                         active:scale-50 duration-150" />
                                 </Link>
-                                <ModalInform id="banheiro2"/>
+                                <ModalInform id="banheiro2" />
 
                             </div>
                         </li>
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6 rounded" />
-                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#1c4a55] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
+                                    <FontAwesomeIcon icon={faEye}
+                                        className="
+                                        text-[#1c4a55] hover:text-[#85e3fa] bg-[#dbdddb]
+                                         hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded m-1
+                                         transition ease-in-out delay-150
+                                         active:scale-50 duration-150" />
                                 </Link>
-                                <ModalInform id="banheiro3"/>
+                                <ModalInform id="banheiro3" />
 
                             </div>
                         </li>
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6 rounded" />
-                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#1c4a55] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
+                                    <FontAwesomeIcon icon={faEye}
+                                        className="
+                                        text-[#1c4a55] hover:text-[#85e3fa] bg-[#dbdddb]
+                                         hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded m-1
+                                         transition ease-in-out delay-150
+                                         active:scale-50 duration-150" />
                                 </Link>
-                                <ModalInform id="banheiro4"/>
+                                <ModalInform id="banheiro4" />
 
                             </div>
                         </li>
@@ -492,60 +632,80 @@ export const PRESENTE = [
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6 rounded" />
-                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#1c4a55] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
+                                    <FontAwesomeIcon icon={faEye}
+                                        className="
+                                        text-[#1c4a55] hover:text-[#85e3fa] bg-[#dbdddb]
+                                         hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded m-1
+                                         transition ease-in-out delay-150
+                                         active:scale-50 duration-150" />
                                 </Link>
-                                <ModalInform id="banheiro5"/>
+                                <ModalInform id="banheiro5" />
 
                             </div>
                         </li>
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6 rounded" />
-                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#1c4a55] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
+                                    <FontAwesomeIcon icon={faEye}
+                                        className="
+                                        text-[#1c4a55] hover:text-[#85e3fa] bg-[#dbdddb]
+                                         hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded m-1
+                                         transition ease-in-out delay-150
+                                         active:scale-50 duration-150" />
                                 </Link>
-                                <ModalInform id="banheiro6"/>
+                                <ModalInform id="banheiro6" />
 
                             </div>
                         </li>
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6 rounded" />
-                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#1c4a55] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
+                                    <FontAwesomeIcon icon={faEye}
+                                        className="
+                                        text-[#1c4a55] hover:text-[#85e3fa] bg-[#dbdddb]
+                                         hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded m-1
+                                         transition ease-in-out delay-150
+                                         active:scale-50 duration-150" />
                                 </Link>
-                                <ModalInform id="banheiro7"/>
+                                <ModalInform id="banheiro7" />
 
                             </div>
                         </li>
                         <li className="grid grid-cols-1 text-center">
                             <div className="flex flex-col items-center justify-center">
                                 <Image src={fundoItems.src} alt="fundoItem" width={110} height={110} className="m-6 rounded" />
-                                <span className="font-Playfair text-[#76712d] text-lg uppercase -mt-5">
+                                <span className="font-Playfair text-[#1c4a55] text-lg uppercase -mt-5">
                                     EXEMPLO
                                 </span>
                             </div>
                             <div className="flex items-center justify-center">
                                 <Link rel="stylesheet" href="https://google.com" target="_blank" className="">
-                                        <FontAwesomeIcon icon={faEye} className="text-[#307c8f] hover:text-[#85e3fa] bg-[#c9c7c7] hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded border border-[#000000] m-1" />
+                                    <FontAwesomeIcon icon={faEye}
+                                        className="
+                                        text-[#1c4a55] hover:text-[#85e3fa] bg-[#dbdddb]
+                                         hover:bg-[#6c6d6c] font-bold py-2 px-2 rounded m-1
+                                         transition ease-in-out delay-150
+                                         active:scale-50 duration-150" />
                                 </Link>
-                                <ModalInform id="banheiro8"/>
+                                <ModalInform id="banheiro8" />
 
                             </div>
                         </li>

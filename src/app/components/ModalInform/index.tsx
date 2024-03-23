@@ -83,9 +83,14 @@ const ModalInform = ({ id, ...props }: any) => {
 
   return (
     <>
-      <button onClick={handleShow} className="bg-[#917235] hover:bg-[#48391b] text-white font-bold py-1 px-2 rounded m-1">
-        <FontAwesomeIcon icon={faGift} className="text-[#fff]" />
-      </button>
+      <FontAwesomeIcon icon={faGift} onClick={handleShow}
+        className="
+        text-[#edeeed] hover:text-[#b6b5b5] bg-[#43aec9]
+        hover:bg-[#152529]
+       font-bold py-2 px-2 rounded cursor-pointer
+       m-1 mb-2 transition ease-in-out delay-100
+       active:scale-50 duration-150"
+      />
 
       <Modal show={show} onHide={handleClose} dialogClassName="modal-custom" centered>
         <Modal.Header closeButton>
