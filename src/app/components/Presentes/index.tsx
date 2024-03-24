@@ -34,7 +34,7 @@ const Presentes = () => {
                         {" "}
 
                     </TabButton>
-                    <span className="text-[#909986]">
+                    <span className="">
                         ·
                     </span>
                     <TabButton className="font-Playfair "
@@ -45,7 +45,7 @@ const Presentes = () => {
                         <span className="ml-1 font-bold">Cozinha</span> <br />  {" "}
 
                     </TabButton>
-                    <span className="text-[#909986]">
+                    <span className="">
                         ·
                     </span>
                     <TabButton className="font-Playfair "
@@ -57,7 +57,7 @@ const Presentes = () => {
                         <br />  {" "}
 
                     </TabButton>
-                    <span className="text-[#909986]">
+                    <span className="">
                         ·
                     </span>
                     <TabButton className="font-Playfair "

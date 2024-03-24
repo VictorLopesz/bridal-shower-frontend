@@ -10,6 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import InputMask from 'react-input-mask';
 import { IoMdAlert } from "react-icons/io";
 import Confirmacao from '../Confirmacao';
+import { TbGiftFilled } from 'react-icons/tb';
 
 const ModalInform = ({ id, ...props }: any) => {
   const [show, setShow] = useState(false);
@@ -92,30 +93,31 @@ const ModalInform = ({ id, ...props }: any) => {
        active:scale-50 duration-150"
       />
 
-      <Modal show={show} onHide={handleClose} dialogClassName="modal-custom" centered>
-        <Modal.Header closeButton>
-          <Modal.Title className="flex items-center justify-center w-full">
-            <div className=" text-[#917235] uppercase text-lg font-semibold">
+      <Modal show={show} onHide={handleClose} className="modal-custom rounded-modal" centered>
+        <Modal.Header closeButton className="modal-header">
+          <Modal.Title className="flex items-center justify-center w-full h-full">
+            <div className="text-[#fff] uppercase text-2xl font-semibold flex items-center">
               <span>
-                Registro de Presente <FontAwesomeIcon icon={faGift} className="ml-1" />
+                Registro de Presentes
               </span>
+              
             </div>
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body>
+        <Modal.Body className="modal-body">
           <Form>
             <span
-              className="font-semibold uppercase text-[13px] text-[#2d6133] flex items-center justify-center">
-              {id}
+              className="font-semibold uppercase text-[20px] text-[#1c4a55] flex items-center justify-end mr-10 mt-1">
+              {id} <TbGiftFilled className='ml-1 w-5 h-5'/>
             </span>
             <input type="hidden" value={id} {...register('id')} />
             <br />
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-              <label className="uppercase font-semibold text-[10px] -mb-2 ml-2 text-[#2d3a1f]">Nome e Sobrenome</label>
+              <label className="uppercase font-semibold text-[12px] -mb-2 ml-2 text-[#1c4a55]">Nome e Sobrenome</label>
               <div className="w-72">
                 <div className="relative w-full min-w-[200px] h-10">
                   <div className="absolute grid w-5 h-5 place-items-center text-blue-gray-500 top-2/4 right-3 -translate-y-2/4">
-                    <FontAwesomeIcon icon={faUser} className="text-[#727E65]" />
+                    <FontAwesomeIcon icon={faUser} className="text-[#1c4a55]" />
                   </div>
                   <input
                     type='text'
@@ -129,11 +131,11 @@ const ModalInform = ({ id, ...props }: any) => {
               </div>
             </Form.Group>
             <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-              <label className="uppercase font-semibold text-[10px] -mb-2 ml-2 text-[#2d3a1f]">WhatsApp</label>
+              <label className="uppercase font-semibold text-[12px] -mb-2 ml-2 text-[#1c4a55]">WhatsApp</label>
               <div className="w-72">
                 <div className="relative w-full min-w-[200px] h-10">
                   <div className="absolute grid w-5 h-5 place-items-center text-blue-gray-500 top-2/4 right-3 -translate-y-2/4">
-                    <FontAwesomeIcon icon={faMobileRetro} className="text-[#727E65]" />
+                    <FontAwesomeIcon icon={faMobileRetro} className="text-[#1c4a55]" />
                   </div>
                   <InputMask
                     mask="(99) 99999-9999" maskChar={null}
@@ -155,19 +157,23 @@ const ModalInform = ({ id, ...props }: any) => {
               </p>}
           </Form>
         </Modal.Body>
-        <Modal.Footer>
+        <Modal.Footer className="modal-footer">
           <button
             className={`${!preenchido ? 'pointer-events-none bg-gray-300 text-gray-600' : ''}
-            bg-[#917235] hover:bg-[#695327] p-2 rounded-md text-white`}
+            hover:text-[#b6b5b5] bg-[#43aec9] hover:bg-[#152529] p-2 rounded-md text-white
+            shadow-lg hover:shadow-xl transition ease-in-out delay-100 active:scale-50 duration-150
+            `}
             type="submit"
             onClick={handleSubmit((data) => onSubmit({ ...data, id }))}
           >
             Salvar
           </button>
-          <button className="bg-[#727E65] hover:bg-[#34392d] p-2 rounded-md text-white"
+          <button className="
+          text-[#1c4a55] hover:text-[#85e3fa] bg-[#dbdddb] hover:bg-[#6c6d6c] font-semibold 
+          py-2 px-2 rounded-md m-1 transition ease-in-out delay-150 active:scale-50 duration-150
+          "
             onClick={handleClose}
           >
-
             Fechar
           </button>
         </Modal.Footer>
