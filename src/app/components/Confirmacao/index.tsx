@@ -1,10 +1,8 @@
 'use client'
 import React from 'react'
 import Modal from 'react-bootstrap/Modal';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircleCheck } from '@fortawesome/free-solid-svg-icons';
-import { FaRegGrinHearts } from "react-icons/fa";
 import GatoAgradecendo from '../../../../public/assets/gato-agradecendo.gif'
+import { GiConfirmed } from 'react-icons/gi';
 
 interface ConfirmacaoProps {
     showConfirmacao: boolean;
@@ -16,21 +14,19 @@ const Confirmacao: React.FC<ConfirmacaoProps> = ({ showConfirmacao, handleCloseC
         <div>
             <Modal show={showConfirmacao} onHide={handleCloseConfirmationModal} dialogClassName="modal-custom" centered>
                 <Modal.Header className="flex items-center justify-center w-full">
-                    <span className="flex items-center justify-center font-semibold text-[#727E65] uppercase">
-                        Informações salvas! <FontAwesomeIcon icon={faCircleCheck} className="ml-1 w-7 h-7" />
+                    <span className="flex items-center justify-center w-full h-full font-semibold text-2xl text-[#fff] uppercase">
+                        Informações salvas <GiConfirmed className="ml-1 w-7 h-7" />
                     </span>
                 </Modal.Header>
                 <Modal.Body>
                     <span className="grid grid-cols-1 justify-self-center text-sm">
-                        <div className="text-sm flex items-center justify-center w-full">
-                            <p>
-                                <p className="font-semibold">
-                                    Obigado pela sua escolha!
-                                </p>
-                                <p className="text-sm">
-                                    Você receberá uma mensagem de confirmação no whatsapp cadastrado.
-                                    Nesta mensagem terá o presente escolhido, e a data da confraternização.
-                                </p>
+                        <div>
+                            <p className="text-sm flex items-center justify-center w-full font-semibold uppercase">
+                                Obigado pela sua escolha!
+                            </p>
+                            <p className="text-sm flex items-center justify-center w-full text-justify">
+                                Você receberá uma mensagem de confirmação no whatsapp cadastrado.
+                                Nesta mensagem terá o presente escolhido, e a data da confraternização.
                             </p>
                         </div>
                         <br />
@@ -40,7 +36,12 @@ const Confirmacao: React.FC<ConfirmacaoProps> = ({ showConfirmacao, handleCloseC
                     </span>
                 </Modal.Body>
                 <Modal.Footer>
-                    <button className="bg-[#ad9762] hover:bg-[#857449] p-2 rounded-md text-[#ffffff]" onClick={handleCloseConfirmationModal}>
+                    <button className="
+          text-[#1c4a55] hover:text-[#85e3fa] bg-[#dbdddb] hover:bg-[#6c6d6c] font-semibold 
+          py-2 px-2 rounded-md m-1 transition ease-in-out delay-150 active:scale-50 duration-150
+          "
+                        onClick={handleCloseConfirmationModal}
+                    >
                         Fechar
                     </button>
                 </Modal.Footer>
