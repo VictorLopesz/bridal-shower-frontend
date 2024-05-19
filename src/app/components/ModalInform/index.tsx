@@ -86,7 +86,7 @@ const ModalInform = ({ id, ...props }: any) => {
     <>
       <FontAwesomeIcon icon={faGift} onClick={handleShow}
         className="
-        text-[#edeeed] hover:text-[#b6b5b5] bg-[#43aec9]
+        text-[#edeeed] hover:text-[#b6b5b5] bg-[#556b2f]
         hover:bg-[#152529]
        font-bold py-2 px-2 rounded cursor-pointer
        m-1 mb-2 transition ease-in-out delay-100
@@ -100,7 +100,7 @@ const ModalInform = ({ id, ...props }: any) => {
               <span>
                 Registro de Presentes
               </span>
-              
+
             </div>
           </Modal.Title>
         </Modal.Header>
@@ -108,12 +108,14 @@ const ModalInform = ({ id, ...props }: any) => {
           <Form>
             <span
               className="font-semibold uppercase text-[20px] text-[#1c4a55] flex items-center justify-end mr-10 mt-1">
-              {id} <TbGiftFilled className='ml-1 w-5 h-5'/>
+              {id} <TbGiftFilled className='ml-1 w-5 h-5' />
             </span>
             <input type="hidden" value={id} {...register('id')} />
             <br />
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-              <label className="uppercase font-semibold text-[12px] -mb-2 ml-2 text-[#1c4a55]">Nome e Sobrenome</label>
+              <label className="uppercase font-semibold text-[12px] -mb-2 ml-2 text-[#1c4a55]">
+                Nome e Sobrenome
+              </label>
               <div className="w-72">
                 <div className="relative w-full min-w-[200px] h-10">
                   <div className="absolute grid w-5 h-5 place-items-center text-blue-gray-500 top-2/4 right-3 -translate-y-2/4">
